@@ -1,0 +1,5 @@
+/Users/Meg/Desktop/Sorter-Tuason-162032-Navarrete-161413/Sorter-Tuason-162032-Navarrete-161413/obj/x86/Debug/Sorter-Tuason-162032-Navarrete-161413.csproj.CoreCompileInputs.cache
+/Users/Meg/Desktop/Sorter-Tuason-162032-Navarrete-161413/Sorter-Tuason-162032-Navarrete-161413/bin/Debug/Sorter-Tuason-162032-Navarrete-161413.exe
+/Users/Meg/Desktop/Sorter-Tuason-162032-Navarrete-161413/Sorter-Tuason-162032-Navarrete-161413/bin/Debug/Sorter-Tuason-162032-Navarrete-161413.pdb
+/Users/Meg/Desktop/Sorter-Tuason-162032-Navarrete-161413/Sorter-Tuason-162032-Navarrete-161413/obj/x86/Debug/Sorter-Tuason-162032-Navarrete-161413.exe
+/Users/Meg/Desktop/Sorter-Tuason-162032-Navarrete-161413/Sorter-Tuason-162032-Navarrete-161413/obj/x86/Debug/Sorter-Tuason-162032-Navarrete-161413.pdb

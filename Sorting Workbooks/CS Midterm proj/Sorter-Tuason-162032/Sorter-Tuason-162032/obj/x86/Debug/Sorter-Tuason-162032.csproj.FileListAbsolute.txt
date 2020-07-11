@@ -1,0 +1,10 @@
+/Users/Meg/Desktop/Sorter-Tuason-162032/Sorter-Tuason-162032/bin/Debug/Sorter-Tuason-162032.exe
+/Users/Meg/Desktop/Sorter-Tuason-162032/Sorter-Tuason-162032/bin/Debug/Sorter-Tuason-162032.pdb
+/Users/Meg/Desktop/Sorter-Tuason-162032/Sorter-Tuason-162032/obj/x86/Debug/Sorter-Tuason-162032.csproj.CoreCompileInputs.cache
+/Users/Meg/Desktop/Sorter-Tuason-162032/Sorter-Tuason-162032/obj/x86/Debug/Sorter-Tuason-162032.exe
+/Users/Meg/Desktop/Sorter-Tuason-162032/Sorter-Tuason-162032/obj/x86/Debug/Sorter-Tuason-162032.pdb
+/Users/Meg/Desktop/CS Midterm/Sorter-Tuason-162032/Sorter-Tuason-162032/bin/Debug/Sorter-Tuason-162032.exe
+/Users/Meg/Desktop/CS Midterm/Sorter-Tuason-162032/Sorter-Tuason-162032/bin/Debug/Sorter-Tuason-162032.pdb
+/Users/Meg/Desktop/CS Midterm/Sorter-Tuason-162032/Sorter-Tuason-162032/obj/x86/Debug/Sorter-Tuason-162032.csproj.CoreCompileInputs.cache
+/Users/Meg/Desktop/CS Midterm/Sorter-Tuason-162032/Sorter-Tuason-162032/obj/x86/Debug/Sorter-Tuason-162032.exe
+/Users/Meg/Desktop/CS Midterm/Sorter-Tuason-162032/Sorter-Tuason-162032/obj/x86/Debug/Sorter-Tuason-162032.pdb

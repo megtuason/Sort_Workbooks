@@ -1,0 +1,31 @@
+---
+uti: com.xamarin.workbook
+id: 707fc8c7-93b5-46aa-b6ab-578fbdb6f964
+title: CS105A_BubbleSort_Tuason
+platforms:
+- Console
+---
+
+```csharp
+int [] a = {2, 3, 16, 23, 0, -1, 34};
+public int [] BubbleSort(int [] myList)
+{
+    for (int i = 0; i < myList.Length-1; i++)
+    {
+        for (int z = 0; z < myList.Length-1; z++)
+        {
+            if (myList[z] > myList[z+1])
+            {
+                int old = myList[z];
+                myList[z] = myList[z+1];
+                myList[z+1] = old;
+            }
+        }
+    }
+    return myList;
+}
+for (int i = 0; i < a.Length; i++)
+{
+    Console.Write(BubbleSort(a)[i] + " ");
+}
+```

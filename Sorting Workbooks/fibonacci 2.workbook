@@ -1,0 +1,33 @@
+---
+uti: com.xamarin.workbook
+id: 3e409bfb-6dfa-4f2e-bcf5-4b979838cb51
+title: fibonacci
+platforms:
+- Console
+---
+
+```csharp
+
+FibPrinter(5);
+
+public void FibPrinter(int length)
+{
+    for (int i = 0; i < length; i++)
+    {
+        Console.Write(FibonacciSeries(i) + " ");
+    }
+}
+
+public int FibonacciSeries(int n)
+{
+    if (n == 0)
+    {
+        return 0;
+    }
+    else if (n == 1)
+    {
+        return 1;
+    }
+    return FibonacciSeries(n-1) + FibonacciSeries(n-2);
+}
+```

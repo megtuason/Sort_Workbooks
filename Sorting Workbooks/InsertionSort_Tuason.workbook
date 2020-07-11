@@ -1,0 +1,27 @@
+---
+uti: com.xamarin.workbook
+id: fdb80a0f-777c-4d32-bd92-6e08bbdc7d69
+title: Untitled
+platforms:
+- Console
+---
+
+```csharp
+int [] arr = {9, 54, 17, 10, 23};
+public int[] InsertionSort (int[] a)
+{
+    for (int i = 0; i < a.Length; i++)
+    {
+        int temp = a[i];
+        int z = i;
+        while ((z > 0) && (a[z-1] > temp))
+        {
+            a[z] = a[z-1];
+            z--;
+        }
+        a[z] = temp;
+    }
+    return a;
+}
+InsertionSort(arr);
+```

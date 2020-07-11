@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{0D87037B-5458-4D62-BB36-F404669FD50C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sorter-Tuason-162032/Sorter.cs">
+    <Files>
+      <File FileName="Sorter-Tuason-162032/Program.cs" Line="9" Column="13" />
+      <File FileName="Sorter-Tuason-162032/Sorter.cs" Line="17" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Sorter-Tuason-162032 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

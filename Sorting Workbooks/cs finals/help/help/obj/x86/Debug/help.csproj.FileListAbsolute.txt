@@ -1,0 +1,10 @@
+/Users/Meg/Projects/help/help/bin/Debug/help.exe
+/Users/Meg/Projects/help/help/bin/Debug/help.pdb
+/Users/Meg/Projects/help/help/obj/x86/Debug/help.csproj.CoreCompileInputs.cache
+/Users/Meg/Projects/help/help/obj/x86/Debug/help.exe
+/Users/Meg/Projects/help/help/obj/x86/Debug/help.pdb
+/Users/Julianne/Downloads/help copy/help/bin/Debug/help.exe
+/Users/Julianne/Downloads/help copy/help/bin/Debug/help.pdb
+/Users/Julianne/Downloads/help copy/help/obj/x86/Debug/help.csproj.CoreCompileInputs.cache
+/Users/Julianne/Downloads/help copy/help/obj/x86/Debug/help.exe
+/Users/Julianne/Downloads/help copy/help/obj/x86/Debug/help.pdb

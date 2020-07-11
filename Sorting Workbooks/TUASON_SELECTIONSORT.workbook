@@ -1,0 +1,36 @@
+---
+uti: com.xamarin.workbook
+id: 64412192-b5f8-4ecf-86e8-64841b6cda07
+title: TUASON_SELECTIONSORT
+platforms:
+- Console
+---
+
+```csharp
+int [] arr = {9, 54, 17, 10, 23};
+public int[] SelectionSort (int[] a)
+{
+    for (int i = 0; i < arr.Length-1; i++)
+    {
+        int min = i;
+        for (int j = i+1; j < arr.Length; j++)
+        {
+            if (arr[j] < arr[min]) 
+            {
+                min = j;
+            }
+        }
+        if (min != i)
+        {
+            int old = arr[i];
+            arr[i] = arr[min];
+            arr[min] = old;
+        }
+    }
+    return arr;
+}
+for (int i = 0; i < arr.Length; i++)
+{
+    Console.Write(SelectionSort(arr)[i] + " ");
+}
+```

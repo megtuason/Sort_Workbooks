@@ -1,0 +1,138 @@
+---
+uti: com.xamarin.workbook
+id: f07bca08-bc6f-4a50-b3bc-82aba4b7064b
+title: Untitled
+platforms:
+- Console
+---
+
+```csharp
+public class Queue
+{
+    private int[] queue; 
+    private int max; 
+    private int end;
+
+    public Queue(int size)
+    {
+        queue = new int[size];
+        end = 0;
+        max = size;
+    }
+
+    public void Enqueue(int item)
+    {
+        if (end == max-1)
+        {
+            Console.WriteLine("Queue Overflow");
+            Console.WriteLine();
+            return;
+        }
+        else
+        {
+            end++;
+            for(int i = max-1; i > 0; i--)
+            {
+                queue[i] = queue[i-1];
+            }
+            queue[0] = item;
+            for (int i = 0; i < queue.Length; i++)
+            {
+            Console.Write(queue[i] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
+    public int Dequeue()
+    {
+        if (end == 0)
+        {
+            Console.WriteLine("Queue Underflow");
+            Console.WriteLine();
+            return 0;
+        }
+        else 
+        {
+            Console.WriteLine("Dequeued element is " + queue[0]);
+            int dequeue = queue[0];
+            for (int i = 0; i < max-1; i++)
+            {
+                queue[i] = queue[i+1];
+            }
+            end--;
+            for (int i = 0; i < queue.Length; i++)
+            {
+                Console.Write(queue[i] + " ");
+            }
+            Console.WriteLine();
+            return dequeue;
+        }
+    }
+
+    public int Peek()
+    {
+        if (end == 0)
+        {
+            Console.WriteLine("Queue Underflow");
+            Console.WriteLine();
+            return 0;
+        }
+        else
+        {
+            Console.WriteLine("Peeked element is: " + queue[0]);
+            for (int i = 0; i < queue.Length; i++)
+            {
+                Console.Write(queue[i] + " ");
+            }
+            Console.WriteLine();
+            return queue[0];
+        }
+    }
+
+    public int Count()
+    {
+        if (end == 0)
+        {
+            Console.WriteLine("Queue Underflow");
+            Console.WriteLine();
+            return 0;
+        }
+        else
+        {
+            Console.WriteLine("Queue count is: " + end);
+            return end;
+        }
+    }
+
+    public void Clear()
+    {
+        if (end == 0)
+        {
+            Console.WriteLine("Queue Underflow");
+            return;
+        }
+        else
+        {
+            for (int i = max-1; i >= 0; i--)
+            {
+                queue[i] = 0;
+                Console.Write(queue[i] + " ");
+            }
+            end = 0;
+            Console.WriteLine();
+        }
+    }
+}
+Queue help = new Queue(5);
+help.Enqueue(5);
+help.Enqueue(3);
+help.Enqueue(4);
+help.Dequeue();
+help.Peek();
+help.Enqueue(8);
+help.Enqueue(9);
+help.Count();
+help.Clear();
+help.Count();
+```
